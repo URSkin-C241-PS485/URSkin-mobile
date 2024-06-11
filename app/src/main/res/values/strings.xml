@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">URSkin</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+
+    //onboarding
+    <string name="welcome">Welcome</string>
+    <string name="welcome1">This application aims to predict 10 skin diseases that are commonly occur in the society with a total accura
+    of 81%</string>
+    <string name="welcome2">URSkin is one of the applications that are still under development by C241-PS48 team as the final project capstone at Bangkit Academy 2024 Batch 1</string>
+    <string name="welcome3">* Please check yourself to nearest clinic if the condition is serious to get more accurate result, by using this app you agree with this statement</string>
+    <string name="start">Lets Start</string>
+
+    //login
+    <string name="login1">Log into\nyour account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="or">Or</string>
+    <string name="google">Log in with Google</string>
+    <string name="dont">Dont have an account? Sign up</string>
+
+    //signup
+    <string name="create">Create Account</string>
+    <string name="name">Full name</string>
+    <string name="already">Already have account? Click here</string>
+
+    //predict
+    <string name="start_predict">Lets Start Predict</string>
+    <string name="gallery_only">You only predict images from the gallery</string>
+    <string name="upload">Upload Image</string>
+    <string name="predict">Predict</string>
+
+    //result
+    <string name="result">Result Predict</string>
+    <string name="description">Desctiption</string>
+    <string name="try_again">Try Again</string>
+    <string name="desc">Dermatitis is a general term that refers to inflammation of the skin, characterized by symptoms such as redness, swelling, itching, and the formation of lesions or blisters.
+        It can result from various causes including allergic reactions, irritants, genetic factors, or underlying medical conditions.
+        There are several types of dermatitis, such as atopic dermatitis (eczema), contact dermatitis, and seborrheic dermatitis, each with distinct triggers and characteristics.
+        While dermatitis is not contagious, it can significantly impact an individuals comfort and quality of life. </string>
+</resources>
