@@ -5,7 +5,11 @@
     <string name="signup">Signup</string>
     <string name="back">Back</string>
     <string name="next">Next</string>
-
+    <string name="gone">Gone</string>
+    
+    //main
+    <string name="letusknow">Let us know your skin\nconcern</string>
+    
     //onboarding
     <string name="welcome">Welcome</string>
     <string name="welcome1">This application aims to predict 10 skin diseases that are commonly occur in the society with a total accura
@@ -41,4 +45,318 @@
         It can result from various causes including allergic reactions, irritants, genetic factors, or underlying medical conditions.
         There are several types of dermatitis, such as atopic dermatitis (eczema), contact dermatitis, and seborrheic dermatitis, each with distinct triggers and characteristics.
         While dermatitis is not contagious, it can significantly impact an individuals comfort and quality of life. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //article
+    <string name="article_source">Siloam Hospitals</string>
+    <string name="article_tittle">Eczema - Causes, Symptoms and Treatments</string>
+    <string name="article_desc">Eczema is a condition when inflammation occurs on the skin, characterized by the appearance of itchy red rashes. However, children experience this condition more often.
+Eczema is often diagnosed during childhood. Regardless, it does not rule out the likelihood that this condition can only be detected during adulthood. Before diagnosing eczema, doctors will record the patient’s symptoms and medical history by asking some questions.</string>
+    
+    <string-array name="data_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="data_source">
+        <item>Siloam Hospital</item>
+        <item>Siloam Hospital</item>
+        <item>Alodokter</item>
+        <item>Siloam Hospital</item>
+        <item>Mayo Clinic</item>
+        <item>Cedars Sinai</item>
+        <item>Siloam Hospital</item>
+        <item>Cleveland Clinic</item>
+        <item>Alodokter</item>
+        <item>Halodoc</item>
+    </string-array>
+    <string-array name="data_tittle">
+        <item>Eczema - Causes, Symptoms and Treatments</item>
+        <item>Melanoma Skin Cancer - Causes, Symptoms and Treatment</item>
+        <item>Atopic - Definition, Causes and Treatment</item>
+        <item>Basal Cell Carcinoma - Causes, Symptoms and Treatments</item>
+        <item>Melanocytic Nevi - Causes and Treatments</item>
+        <item>Benign Keratosis-like Lesions - Treatments</item>
+        <item>Psoriasis Lichen Planus - Definition, Type and Treatments</item>
+        <item>Seborrheic Keratoses and other Benign Tumors - Treatments</item>
+        <item>Tinea Ringworm Candidiasis and other Fungal Infections - Treatments</item>
+        <item>Warts Molluscum and other Viral Infections</item>
+    </string-array>
+    <string-array name="data_desc">
+        <item>Eczema is a condition when inflammation occurs on the skin, characterized by the appearance of itchy red rashes. However, children experience this condition more often.
+Eczema is often diagnosed during childhood. Regardless, it does not rule out the likelihood that this condition can only be detected during adulthood. Before diagnosing eczema, doctors will record the patient’s symptoms and medical history by asking some questions.
+\n\nCauses of Eczema\nUp to these days, the exact cause of eczema is still uncertain. Nonetheless, this condition is suspected to be related to an individual’s genetic factors or immunity.
+\n- Genetic Mutation\n- Genetic Factors\n- Immune System Disorders
+\n\nHow to Treat Eczema\n- Taking a Warm Bath\nTaking a warm bath will lessen the itch and irritation on the skin. Nevertheless, avoid using water that is too hot as it may cause inflammation and aggravate the symptoms of eczema.
+\n\n- Applying a Cold Compress on the Itching Area
+\nEvery person must have the urge to scratch the eczema to relieve the itch. However, this is not recommended. Scratching will only cause wounds and irritation that will lead to infections. To reduce the itch, apply a cold compress on the itching area.
+\n\n- Using the Right Soap
+\nUsing the wrong soap or that which contains harsh chemicals can aggravate the symptoms of eczema. An eczema patient is also not advised to use an antiseptic soap because it may worsen dry skin. For a safer choice, opt for products with hypoallergenic labels.
+\n\n- Wearing Comfortable Materials
+\nIt is best for an eczema patient to wear clothes with a soft, cool, and sweat-absorbent material, such as cotton. Cotton can absorb sweat well, which helps to minimize rashes and itch.
+\n\n- Applying Certain Moisturizers
+\nIt is also recommended for an eczema patient to maintain skin moisture by applying certain moisturizers regularly. Consult a doctor about this to obtain a suitable type of cream.
+</item>
+        <item>Melanoma is the most serious and dangerous type of skin cancer that develops from melanocytes. Melanocytes are skin pigment cells that play a role in producing melanin (the pigment that produces human skin colour).
+Melanoma skin cancer is rare, but very dangerous if not treated immediately. Not only in the skin, melanoma cancer can also sometimes occur in the eyes, nose and throat.
+
+\n\nTypes of Melanoma
+\nBased on the location of cancer cell growth, melanoma is divided into several types, including
+\n- Superficial spreading melanoma,\nmelanoma is the most common and usually appears on the trunk or limbs, such as the upper back and legs. In this type, cancer cells tend to grow along the upper surface of the skin and then extend over the surface area, sometimes into deeper layers of the skin
+\n- Nodular melanoma, This is a type of skin cancer that appears on the trunk of the body, such as the head or neck. Malignant tumours that appear in this type take the form of black or reddish lumps. The growth of this type of cancer tends to be faster than others.
+\n- Lentigo maligna melanoma, is a type of skin cancer that often affects older people, especially on parts of the body that are often exposed to sunlight.
+\n- Acral lentiginous melanoma, Melanoma is the rarest type of melanoma, usually appearing on the soles of the feet and hands or under the nails. This type of melanoma is more common in dark-skinned people.
+
+\n\nCauses of Melanoma
+\nAlthough the exact cause is unknown, the most common factor suspected to cause melanoma is direct exposure to UV light. Melanoma occurs when DNA damage causes skin cells to grow uncontrollably, forming a cancerous mass. Apart from UV exposure, some of the factors that can increase a person\'s risk of developing melanoma skin cancer are
+\n- White skin, this is because white skin does not have enough melanin to protect the skin
+\n- From UV radiation exposure.
+\n- Having a large number of moles or more than 50 moles on the body.
+\n- Often exposed to the sun and ultraviolet directly.
+\n- Live in the equatorial region of the earth.
+\n- Have a family history of melanoma \n(genetic factor).
+\n- Have a weak immune system.
+\n- Have had burns from exposure to the sun.
+\n- Freckles or brown spots on the skin.
+
+\n\nHow to Treat Melanoma
+\nIn the early stages, melanoma treatment can be done through surgery by removing the cancerous area. After that, the patient will undergo radiotherapy using high radiation beams to kill cancer cells. Radiotherapy has some possible side effects, such as hair loss (in the treatment area), nausea, fatigue, burning sensation on the skin, and skin discolouration.
+\nIf the cancer has spread to several other organs, the doctor will perform systematic therapy, such as
+\n- Chemotherapy,the giving of anticancer \ndrugs to destroy cancer cells.
+\n- Immunotherapy,therapy using artificial \nsubstances similar to natural anticancer agents to boost the bodys immunity and fight cancer cells.
+\n- Targeted therapy,giving drugs that target cancer cells to help slow their growth.
+        </item>
+        <item>Atopic dermatitis is a skin inflammation or eczema characterised by dry skin, persistent itching and red rashes on the skin. The condition can appear on one or more parts of the body, but is most common on the face, arms and legs.
+Atopic dermatitis is also called atopic eczema or dry eczema. It is not contagious and usually appears in infants or toddlers, and can recur into adulthood. However, atopic dermatitis can also be experienced by teenagers or adults who have never had the condition before.
+
+\n\nCauses of Atopic Dermatitis
+\nThe cause of atopic dermatitis is not known for certain, but there are several factors that are thought to trigger the onset of atopic dermatitis, including
+\n- Hormonal changes
+\n- Allergies, for example to food, dust, animal hair, wool, or mites
+\n- Irritation to certain substances, such as soap or detergent
+\n- Stress
+\n- Infections
+\n- Cold, dry or humid air
+\n- Sweat
+
+\n\nHow to Treat Melanoma
+\nTreatment of atopic dermatitis aims to relieve symptoms such as skin redness, itching and infection. Treatment methods include eczema medication, moisturising creams, special therapies, and self-care at home.
+
+To treat atopic dermatitis in babies, treatments include
+\n- Recognise and avoid substances, foods and drinks that trigger symptoms.
+\n- Make sure the baby is always in a cool and comfortable temperature room.
+\n- Change the babys clothes regularly if the baby is sweating
+\n- Change the babys nappy regularly.
+\n- Do not use too hot water when bathing the baby.
+\n- Use special shampoo and soap for \nbabies.
+\n- Avoid bathing the baby for too long.
+\n- Apply the atopic dermatitis ointment \nprescribed by the doctor while the babys skin is still damp after bathing.</item>
+        <item>Basal cell carcinoma is a skin cancer that attacks basal cells. This condition is the most common type of skin cancer. The head, face, and neck are the most affected parts due to their frequent exposure to direct sunlight.
+Basal cells are active tissues located in the deepest layer of the epidermis (outer layer of skin), which play a role in the formation and production of new skin cells to replace the old and dead skin cells. This type of cancer occurs when basal cells grow uncontrollably, thereby damaging the surrounding cells and tissue. 
+The several types of basal cell carcinoma that are commonly encountered are as follows
+\n- Nodular, looks like a round pimple with blood vessels around it. This type is most often found.
+\n- Superficial spreading, causes the \nappearance of small, shallow, and persistent lesions on the skin accompanied by a reddish color resembling dermatitis. They usually appear on the arms, torso, and legs.
+\n- Sclerosing (morpheaform), looks like an ivory-white scar tissue that appears without any history of scarring. In this type, there is no tumor formation but more like a plaque with indistinct boundaries that slowly expands, often growing on the face.
+\n- Pigmented, a type of basal cell cancer that causes hyperpigmentation (skin color becomes darker than the surrounding skin area).
+
+\n\nCauses of Basal Cell Carcinoma
+\nBasal cell carcinoma is caused by DNA mutations (changes). However, the exact cause of this DNA mutation is yet to be known. Regardless, there is a strong suspicion that this cancer is influenced by genetic and environmental factors (e.g. long-term exposure to sunlight).
+Several factors that can increase a persons risk of developing carcinoma or basal cell cancer are as follows
+\n- Exposure to sunlight, especially UVB \nwaves. The duration and intensity of exposure are the main factors for this type of cancer.
+\n- Having light or white skin color.
+\n- Having a light iris color.
+\n- Aged 50 and older.
+\n- Male.
+\n- Undergoing an indoor tanning procedure (skin darkening).
+\n- Having a history of skin cancer.
+\n- Having a family history of skin cancer.
+\n- Having undergone radiotherapy.
+\n- Genetic diseases that risk causing skin \ncancer, e.g. nevoid basal cell carcinoma syndrome.
+\n- Exposure to arsenic poison and direct \nsunlight.
+\n- Having a history of genetic diseases, such as Gorlin syndrome and Rombo syndrome.
+
+\n\nHow to Treat Basal Cell Carcinoma
+\nThe main goal of basal cell cancer treatment is to remove or eliminate cancer cells in the body. The doctor will choose the most appropriate treatment method, according to the patients stage and health condition. Some of the treatment methods used to treat this cancer are
+\n- Tumor excision, namely cutting the area of ​​skin affected by cancer using a scalpel.
+\n- Mohs surgery.
+\n- Curettage and electrodesiccation, \nnamely scraping cancer cells on the surface of the skin and burning the remaining cancer cells using an electric needle.
+\n- Cryotherapy (treatment using a special \nliquid nitrogen to freeze cancer cells).
+\n- Photodynamic therapy.
+\n- Radiotherapy (radiation therapy).
+\n- Chemotherapy.</item>
+        <item>A nevus is a coloured patch on the surface of the skin. These coloured patches originate from melanocyte cells, which form the colour of skin and hair. This condition generally appears at birth or soon after birth, is most common in young adults, and declines in older people.
+There are various types of nevus, including melanocytic nevus, known as a "mole", and giant hairy nevus. The latter type of nevus is something to watch out for as about 10-15 per cent of them can develop into malignancies.
+Here are some common types of nevus that appear on the skin.
+\n- Common nevus,flat-shaped patches that are dark brown or pink in colour.
+\n- Dysplastic nevi, a harmless type of nevus that resembles a melanoma.
+\n- Blue nevus, a blue-coloured mole with a flat shape. Commonly found in people of Asian descent.
+\n- Miescher nevi, a round, brownish coloured mole that usually appears on the face and neck.
+\n- Unna nevi, a type of nevus that is dark \nbrown in colour and has a raspberry-like shape.
+
+\n\nCauses of Melanocytic Nevi
+\nThis condition can be caused by melanocyte cells, which are the cells that form the colour of the skin and hair that are generally spread evenly across the surface of the skin.However, in this case, the melanocyte cells only collect in one area. As a result, dark-coloured patches appear on the surface of the skin.
+
+\n\nHow to Treat Melanocytic Nevi
+\n- In general, this skin condition is harmless, so it does not require special treatment. However, some people may feel insecure about their dark patches.
+\n- Your doctor may recommend a biopsy to remove the patches on the surface of the skin, especially if they have developed into malignant patches and could pose a cancer risk.
+\n- In addition, treatment can also be done using excision. Excision is a minor surgical procedure that removes skin tissue. This procedure can usually be done without the need to enter an operating theatre. </item>
+        <item>A seborrheic keratosis is a noncancerous (benign) growth on the skin. Its color can range from white, tan, brown, or black. Most are raised and appear "stuck on" to the skin. They may look like warts.
+
+\nSeborrheic keratoses often appear on a persons chest, arms, back, or other areas. They’re very common in people older than age 50, but younger adults can get them as well. With age, more and more people get 1 or more of these growths.
+
+The outer layer of your skin is the epidermis. Cells called keratinocytes make up much of this layer. These cells regularly flake off as younger cells replace them. Sometimes keratinocytes grow in greater numbers than usual. This can lead to a keratosis. You may have just 1 or hundreds of these growths. In most cases, these growths only cause cosmetic problems. In some cases, they can cause skin irritation if theyre in a spot that clothes rub.
+
+\nSeborrheic keratoses are not cancer. But they can sometimes look like growths that are cancer. Because of this, your healthcare provider may need to take a biopsy sample and examine it.
+
+\n\nCauses of Benign Keratosis
+\nIts not clear what exactly causes seborrheic keratoses. They tend to run in families, so genes may be a cause. Normal skin aging plays a role because the growths are more common with age. Too much sun exposure may also play a role. They are not contagious. You cant get them from somebody else or spread them to others.
+
+\nSometimes, multiple seborrheic keratoses may suddenly appear. This is unusual. It may be a sign of a cancer not linked to the skin, such as colon cancer or lung cancer. If you’ve had many of these growths suddenly appear, tell your healthcare provider. They may want to make sure that you don’t have any type of cancer.
+
+\n\nHow to Treat Benign Keratosis
+\nSeborrheic keratoses usually only cause cosmetic issues. But many people worry about the possibility of cancer. People may also want them removed because they dont like how they look.
+In most cases, they dont need any treatment. You can choose to remove one or more of them if they get irritated due to clothing, feel itchy, are worried about cancer, or dont like how they look. They can be removed with
+
+\n- Liquid nitrogen. This is called cryotherapy. It freezes the growth, causing it to fall off within days.
+\n- Minor surgery. This can be done in 2 ways
+  \n\t+ With a scalpel and a numbing medicine to prevent pain
+  \n\t+ With electricity to burn the growth away and a numbing medicine to prevent pain
+
+\nMost growths that are removed dont grow back, but they may occur elsewhere. If they do grow back after treatment, a tissue sample (biopsy) is needed to make sure that the diagnosis was correct and that the growth is not cancer.</item>
+        <item>Lichen planus is a rash that appears on the skin, hair, nails, mouth or genitals. The disease can last for several weeks. Lichen planus that occurs on the skin and mucous membranes has a different appearance. Lichen planus on the skin usually takes the form of a red or purple itchy rash, while on the mucous membranes it takes the form of white patches.
+Cases of lichen planus are quite rare, but it is known that the majority of sufferers are aged 30-60 years. However, lichen planus can occur in anyone.
+
+\n\nTypes of Lichen Planus
+\nLichen planus can be divided into several types, ranging from cutaneous lichen planus to nail lichen planus. Here is a complete explanation of the types of lichen planus.
+\n\n- Cutaneous Lichen Planus
+\nThis type of lichen planus appears on the skin with itching, although in some cases, sufferers may not feel itchy. The patches can be anywhere, but most commonly appear on the wrists, lower back and ankles. The appearance of shiny bumps with flat and hard edges is also a symptom of cutaneous lichen planus. The bumps vary in size, are scattered over the skin, and vary in colour depending on the patients skin tone. The bumps may subside after a few months and turn brownish in colour and take a long time to fade completely.
+\n\n- Hypertrophic lichen planus
+\nA type of lichen planus with inflammation that takes the form of rashes or scales.
+\n\n- Atrophic lichen planus
+\nA rare type of lichen planus with bumps that appear on the legs, axilla, or head of the penis.
+\n\n- Annular lichen planus
+\nA type of lichen planus with purplish-coloured rashes on the scrotum, penis, and skin folds.
+\n\n- Erosive Lichen planus
+\nErosive lichen planus is a severe lichen planus condition that affects the mucous membranes, such as in the mouth, vagina, inner eyelids, tear glands, external ear cavity, oesophagus, larynx, bladder and anus.
+Some types of lichen planus on the mucosa are painless. However, this condition can also cause open sores or ulcers that are painful, especially if there is contact with the sores such as when chewing food or having sex.
+\n\n- Oral Lichen Planus
+\nOral lichen planus is a type of lichen planus that appears on the mouth, specifically the inner cheeks, tongue, gums, or inner lips. Oral lichen planus is usually characterised by the appearance of painless white lines on the inflammatory area, or commonly called "Wickham Striae".
+Not only that, people with oral lichen planus also have red patches and peeling gums. Although the white patches caused by oral lichen planus are painless, the patches will be painful if the patient has erosive lichen planus.
+\n\n- Vulval Lichen Planus
+\nVulval lichen planus is a type of lichen planus that occurs on the outer and inner lips of the vagina and the vaginal entrance. Common symptoms of vulval lichen planus are painless white patches on the vulva, vaginal thinning, adhesions, and so on.
+Just like oral lichen planus, vulval lichen planus sufferers will experience pain when exposed to erosive lichen planus in the vagina, which can lead to painful ulcers in the vagina.
+\n\n- Lichen Planopilaris
+\nThis type of lichen planus occurs on the scalp with symptoms such as bald spots, hair follicle damage, and red, slightly sharp bumps on the scalp. Apart from the scalp, lichen planopilaris can also appear on the forehead and eyebrows.
+\\nn- Nail Lichen Planus
+\nThis type of lichen planus occurs on the nail and can spread to the skin area near the nail in some cases. Nails with nail lichen planus will thin out which over time can lead to the appearance of jagged sores, damage, turning darker, and even detaching from the skin.
+
+
+\n\nCauses of Psoriasis Lichen plants
+\nThe cause of lichen planus is not clearly known, but the condition is known to be caused by the following factors
+\n- Hepatitis C infection.
+\n- Reaction to certain medications, such as antimalarial drugs, diabetes medications, and others.
+\n- Autoimmune disorders in which the \nimmune system mistakenly attacks cells in the mouth or skin.
+\n- Reaction from dental fillings or jewellery made of metal.
+\n- Having a family member with a history of lichen planus.
+\n- Physical and psychological stress.
+\n- Wounds on the skin from surgery.
+\n- Contracting shingles.
+
+\n\nHow to Treat Psoriasis Lichen Planus
+\nLichen planus usually goes away without treatment after about a year, but it can last longer. In contrast, psoriasis is often a long-term condition, and there is no cure. People can usually manage the symptoms with ointments, medication, lifestyle changes, or a combination.</item>
+        <item>A seborrheic keratosis (seb-o-REE-ik ker-uh-TOE-sis) is a common benign skin growth, similar to a mole. Most people will have at least one in their lifetime. They tend to appear in mid-adulthood and their frequency increases with age. They are harmless and dont require treatment, but you can have them removed if they bother you.
+Skin growths like seborrheic keratoses are sometimes also called epidermal tumors. That doesnt mean theyre cancer, though. Technically, moles and warts are also epidermal tumors. That just means they are clusters of extra cells on the epiderma, the outer layer of the skin. They arent considered a risk factor for skin cancer.
+Seborrheic keratoses are roundish or oval-shaped patches on the skin with a “stuck on” appearance. They are sometimes described as waxy or scaly. They are raised above the skin and even when they are flat you can feel them with your finger. They are usually brown, but can also be black or tan, and less often, pink, yellow or white. They often appear in numbers.
+Seborrheic keratoses are characterized by keratin on the surface — the same fibrous protein that fingernails, hooves, and horns are made of. This causes the textural details that often distinguish the growths. Sometimes it looks like small bubbles or cysts within the growth. Sometimes it looks scabby or wart-like. Sometimes it looks like the ridges and fissures in a brain.
+
+\n\nHow to Treat Seborrheic Keratoses
+\nYou should always have new skin growths clinically diagnosed to make sure they arent cancerous. Different kinds of skin growths can be hard to tell apart from each other. If your healthcare provider is in any doubt about your growth, they might want to remove it for biopsy.
+
+\nIf it is clearly a seborrheic keratosis, it wont require any treatment. But you might want to have it removed if it becomes itchy or irritated or you dont like the look of it. Your healthcare provider can remove it for you in the office using one of several common methods.
+
+\n\nMedical offices offer several options for removing your seborrheic keratosis
+
+\n- Cryotherapy. Your healthcare provider will numb the skin and then use liquid nitrogen to freeze the growth. This will cause it to fall off within a few days or weeks. Cryotherapy is a common choice when the diagnosis is clear and there is no need to preserve a sample of the growth for biopsy. One possible side effect is that the skin where the growth was will lose some of its pigment and look lighter.
+\n- Electrodessication/Curettage. Your \nhealthcare provider will numb the skin and then use a targeted electrocurrent to burn the seborrheic keratosis. They use a surgical instrument called a curette to scrape away the remains of the growth. Electrodessication and curettage are also sometimes used individually. The risk of scarring is generally low with both methods, but there is some wound care involved afterward.
+\n- Shave Excision. This is the preferred \nmethod when your healthcare provider wants to preserve a sample of the growth to analyze in the lab. After numbing the skin, your healthcare provider will carefully shave off the growth and smooth the skin underneath with a surgical curette. Then theyll send the shaved growth to the lab for analysis.
+\n- Laser Therapy. Lasers offer an alternative to surgery by burning the growth, sterilizing the wound and sealing the tissue all at once. Laser therapy is quick, but the wound will be sore for a while afterward. Lasers are associated with good cosmetic results.
+\n- Prescription Hydrogen Peroxide. The \nFDA has recently approved a topical solution of 40% hydrogen peroxide to treat seborrheic keratosis. (Over-the-counter hydrogen peroxide is a 1% solution.) The solution comes in an applicator pen, which your healthcare provider will apply to your seborrheic keratosis several times in one visit. You may need more than one visit to see results. Mild skin reactions are a common side effect.
+
+\n\nSome over-the-counter topical treatments have shown promise for reducing seborrheic keratoses. Research is limited on these solutions. They take time and persistence to work and are not 100% effective. But they also have fewer side effects and little-to-no recovery time. They might be a practical option to try if you want to treat many growths at once. Options include</item>
+        <item>Fungal infections are the most common skin infection and can be experienced by all age groups. Fungal infections on the skin are contagious and often uncomfortable. Fungal infections on the skin are generally caused by Candida, Malassezia, Epidermophyton, Microsporum, or Trichophyton fungi. Mild fungal infections will usually cause a rash on the skin. Although harmless, the rash is itchy and annoying.Most moulds reproduce through airborne spores. Thats why fungal infections most commonly affect the outer parts of the human body, such as the skin and nails. People who are active and sweaty are at high risk of developing skin fungal infections, especially if they do not maintain good personal hygiene.
+Types and Symptoms of Skin Fungal Infections to Know
+Here are the most common types of skin fungal infections
+\n\n- Dermatophytosis (ringworm)
+\nThis fungal infection is characterised by a circular, reddish, itchy skin rash. The red colour at the edges of the ring is more pronounced. Ringworm can be contagious, but usually does not become severe. It can affect the scalp, face, neck, or other parts of the body.
+\n\n- Tinea pedis or athletes foot
+\nSymptoms of tinea pedis include peeling and cracking of the skin on the feet, red blisters, and itching and burning.This fungal infection is contagious and generally occurs between the toes. Athletes who always wear socks are more at risk of developing this skin fungal infection.
+\n\n- Tinea cruris (jock itch)
+\nTinea cruris is a contagious fungal infection that appears in the folds of the skin that are moist and warm, such as the folds of the buttocks, groin, and genitals. The infected skin will appear reddish, and feel itchy and sore. This condition often occurs in teenage and adult men, or people who often wear tight trousers.
+\n\n- Skin candidiasis
+\nSkin candidiasis is caused by the Candida fungus and is not contagious.Candida mould can appear on any part of the body, but it often appears in warm and moist areas of the body, such as the groin and armpits. Skin infected with candida mould will look reddish and itchy.
+
+\nHow to Treat Tinea Ringworm Candidiasis and other Fungal Infections
+\nThe main treatment for fungal skin infections is antifungal medication, especially topical antifungals such as creams or ointments. Antifungal medications work by destroying the fungal cell wall and inhibiting the growth of fungal cells.
+
+\n\nSome of the antifungal medications commonly used to treat fungal skin infections are
+\n- Topical antifungals, which are antifungals applied directly to the skin, hair or nails.
+\n- Oral antifungals, which are antifungals that come in capsule, pill, or liquid form, and are usually given if the infected area is very large and cannot be treated with topical antifungals
+\n\nTopical antifungal medications come in different forms, brands, and strength levels to eradicate mould. However, in general, antifungal medications sold in pharmacies contain clotrimazole, miconazole, nystatin, ketoconazole, or a combination of these ingredients.
+\nAntifungal medications must be used in accordance with the recommended use. They should also continue to be used for a few days after the rash has disappeared to kill any remaining mould.</item>
+        <item>Warts Molluscom are small, rough, hard growths on the skin caused by an infection with the Human Papillomavirus (HPV). They can appear on different parts of the body, including the hands, feet, and genitals, and are typically characterized by their rough, cauliflower-like texture. They are spread through direct contact with the wart or through contact with surfaces that have been touched by someone with the virus.
+
+\n\nCauses of Warts Molluscum
+\nWarts are caused by an infection with the Human Papillomavirus (HPV). There are more than 100 types of HPV, and different types tend to infect different parts of the body. Key points about the causes include
+\n- HPV Infection, the virus enters the body through tiny cuts or breaks in the skin.
+Transmission
+\n- Direct Contact, touching a wart on \nsomeone elses body.
+\n- Indirect Contact, touching surfaces or objects that have come into contact with a wart, such as towels, shoes, or floors in public showers.
+
+\n\nTypes of Warts Molluscum
+\n- Common Warts, often found on the hands and fingers.
+\n- Plantar Warts, appear on the soles of the feet.
+\n- Flat Warts, smaller and smoother, often occurring on the face, thighs, or arms.
+\n- Genital Warts, transmitted through sexual contact.
+
+\n\nHow to Treat Warts Molluscum
+\nOver-the-Counter Treatments
+\n- Salicylic Acid, available in the form of \npatches, gels, or liquid. It works by gradually peeling away the wart.
+\n- Freezing Sprays, these contain dimethyl ether and propane and work by freezing the wart tissue.
+
+\n\nPrescription Treatments
+\n- Stronger Salicylic Acid, aigher \nconcentrations prescribed by a doctor.
+\n- Cryotherapy, treezing the wart with \nliquid nitrogen performed by a healthcare provider.
+\n- Cantharidin, applied by a healthcare \nprovider to cause a blister to form under the wart, lifting it off the skin.
+\n- Immunotherapy, involves stimulating the immune system to fight off the wart, using substances like imiquimod or injections of antigens.
+
+\n\nSurgical Procedures
+\n- Laser Treatment, uses an intense beam of light to destroy wart tissue.
+\n- Electrosurgery and Curettage, burning the wart using an electric needle, followed by scraping it off.
+\n- Minor Surgery, cutting away the wart.
+
+\n\nHome Remedies
+\n- Duct Tape Occlusion, covering the wart with duct tape for several days, then soaking and gently scraping the wart.</item>
+    </string-array>
+    <integer-array name="data_img">
+        <item>@drawable/atopic</item>
+        <item>@drawable/atopic</item>
+        <item>@drawable/atopic</item>
+        <item>@drawable/atopic</item>
+        <item>@drawable/atopic</item>
+        <item>@drawable/atopic</item>
+        <item>@drawable/atopic</item>
+        <item>@drawable/atopic</item>
+        <item>@drawable/atopic</item>
+        <item>@drawable/atopic</item>
+    </integer-array>
+
 </resources>
