@@ -7,10 +7,10 @@
     <color name="light_grey">#ebebeb</color>
     <color name="very_light_grey">#F6F6F6</color>
     <color name="strong_orange">#b65629</color>
+    <color name="soft_orange">#ef9771</color>
     <color name="pale_orang">#FFDFCE</color>
     <color name="grayish_orange2">#feeee6</color>
     <color name="grayish_orange">#fdeee5</color>
     <color name="grayish_red">#e4e2e2</color>
-    <color name="soft_orange">#ef9771</color>
     <color name="mostly_white">#fffbf9</color>
 </resources>

@@ -29,6 +29,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        mlModelBinding = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -51,4 +52,13 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //tflite
+    implementation("org.tensorflow:tensorflow-lite-support:0.4.4")
+    implementation("org.tensorflow:tensorflow-lite-metadata:0.4.4")
+    implementation("org.tensorflow:tensorflow-lite-task-vision:0.4.4")
+
+    //lifecycle
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation("androidx.activity:activity-ktx:1.8.0")
 }

@@ -6,10 +6,10 @@
     <string name="back">Back</string>
     <string name="next">Next</string>
     <string name="gone">Gone</string>
-    
+
     //main
     <string name="letusknow">Let us know your skin\nconcern</string>
-    
+
     //onboarding
     <string name="welcome">Welcome</string>
     <string name="welcome1">This application aims to predict 10 skin diseases that are commonly occur in the society with a total accura
@@ -31,12 +31,18 @@
     <string name="name">Full name</string>
     <string name="already">Already have account? Click here</string>
 
+    //menu
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="history">History</string>
+
     //predict
-    <string name="start_predict">Lets Start Predict</string>
+    <string name="start_predict">Start Your Predict</string>
     <string name="gallery_only">You only predict images from the gallery</string>
     <string name="upload">Upload Image</string>
     <string name="predict">Predict</string>
-
+    <string name="notes">Notes</string>
+    <string name="failed_image_classifier">Image classifier is failed</string>
     //result
     <string name="result">Result Predict</string>
     <string name="description">Desctiption</string>
@@ -53,7 +59,7 @@
     <string name="article_tittle">Eczema - Causes, Symptoms and Treatments</string>
     <string name="article_desc">Eczema is a condition when inflammation occurs on the skin, characterized by the appearance of itchy red rashes. However, children experience this condition more often.
 Eczema is often diagnosed during childhood. Regardless, it does not rule out the likelihood that this condition can only be detected during adulthood. Before diagnosing eczema, doctors will record the patient’s symptoms and medical history by asking some questions.</string>
-    
+
     <string-array name="data_id">
         <item>1</item>
         <item>2</item>
@@ -347,16 +353,16 @@ Transmission
 \n- Duct Tape Occlusion, covering the wart with duct tape for several days, then soaking and gently scraping the wart.</item>
     </string-array>
     <integer-array name="data_img">
+        <item>@drawable/eczema</item>
+        <item>@drawable/melanoma</item>
         <item>@drawable/atopic</item>
-        <item>@drawable/atopic</item>
-        <item>@drawable/atopic</item>
-        <item>@drawable/atopic</item>
-        <item>@drawable/atopic</item>
-        <item>@drawable/atopic</item>
-        <item>@drawable/atopic</item>
-        <item>@drawable/atopic</item>
-        <item>@drawable/atopic</item>
-        <item>@drawable/atopic</item>
+        <item>@drawable/basal</item>
+        <item>@drawable/menalocytic</item>
+        <item>@drawable/benign</item>
+        <item>@drawable/psoriasis</item>
+        <item>@drawable/seborrheic</item>
+        <item>@drawable/tinea</item>
+        <item>@drawable/warts</item>
     </integer-array>
 
 </resources>

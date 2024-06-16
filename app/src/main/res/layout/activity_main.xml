@@ -20,6 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@android:color/transparent"
+            app:menu="@menu/menu_options"
             app:title="@string/app_name"
             app:titleCentered="true" />
 
@@ -29,9 +30,19 @@
         android:id="@+id/rv_article"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp"
+        android:padding="8dp"
         android:layout_marginTop="65dp"
        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="26dp"
+        android:backgroundTint="@color/soft_orange"
+        android:src="@drawable/baseline_camera_enhance_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
