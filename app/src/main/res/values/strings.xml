@@ -12,8 +12,7 @@
 
     //onboarding
     <string name="welcome">Welcome</string>
-    <string name="welcome1">This application aims to predict 10 skin diseases that are commonly occur in the society with a total accura
-    of 81%</string>
+    <string name="welcome1">This application aims to predict 10 skin diseases that are commonly occur in the society</string>
     <string name="welcome2">URSkin is one of the applications that are still under development by C241-PS48 team as the final project capstone at Bangkit Academy 2024 Batch 1</string>
     <string name="welcome3">* Please check yourself to nearest clinic if the condition is serious to get more accurate result, by using this app you agree with this statement</string>
     <string name="start">Lets Start</string>
@@ -23,18 +22,30 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="or">Or</string>
-    <string name="google">Log in with Google</string>
-    <string name="dont">Dont have an account? Sign up</string>
+    <string name="google">\tLog in with Google</string>
+    <string name="dont">Dont have an account? <u>Signup here</u></string>
 
     //signup
     <string name="create">Create Account</string>
     <string name="name">Full name</string>
-    <string name="already">Already have account? Click here</string>
+    <string name="already">Already have account? <u>Click here</u></string>
+    <string name="success">Registration Success!! Lets check your skin</string>
+    <string name="failed">Registration Failed!! Please check your email and password. </string>
+    <string name="conti">Continue</string>
+    <string name="sorry">Sorry</string>
+
+    //profile
+    <string name="photo">Photo Profile</string>
+    <string name="name_paja">Farhan Faza</string>
+    <string name="email_paja">frhnfza@gmail.com</string>
 
     //menu
     <string name="profile">Profile</string>
     <string name="logout">Logout</string>
     <string name="history">History</string>
+
+    //history
+    <string name="date">Date</string>
 
     //predict
     <string name="start_predict">Start Your Predict</string>
@@ -47,10 +58,8 @@
     <string name="result">Result Predict</string>
     <string name="description">Desctiption</string>
     <string name="try_again">Try Again</string>
-    <string name="desc">Dermatitis is a general term that refers to inflammation of the skin, characterized by symptoms such as redness, swelling, itching, and the formation of lesions or blisters.
-        It can result from various causes including allergic reactions, irritants, genetic factors, or underlying medical conditions.
-        There are several types of dermatitis, such as atopic dermatitis (eczema), contact dermatitis, and seborrheic dermatitis, each with distinct triggers and characteristics.
-        While dermatitis is not contagious, it can significantly impact an individuals comfort and quality of life. </string>
+    <string name="goto_article">Go to article</string>
+    <string name="desc">* Please kindly check our article, the article include definition, causes, type and treatment. </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

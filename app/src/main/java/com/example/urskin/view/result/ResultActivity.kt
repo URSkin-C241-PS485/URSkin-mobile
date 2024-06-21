@@ -1,5 +1,6 @@
 package com.example.urskin.view.result
 
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
@@ -9,6 +10,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.urskin.R
 import com.example.urskin.databinding.ActivityResultBinding
+import com.example.urskin.view.main.MainActivity
+import com.example.urskin.view.predict.PredictActivity
 
 class ResultActivity : AppCompatActivity() {
 
@@ -30,6 +33,15 @@ class ResultActivity : AppCompatActivity() {
             Log.d("Result","showResult: $it")
             binding.tvResult.text = it
 
+        }
+
+        setupAction()
+    }
+
+    private fun setupAction(){
+        binding.layoutGoto.setOnClickListener {
+            val predictIntent = Intent(this, MainActivity::class.java)
+            startActivity(predictIntent)
         }
     }
 

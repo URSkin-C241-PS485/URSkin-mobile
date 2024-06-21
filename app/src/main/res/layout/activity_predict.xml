@@ -19,6 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="?attr/homeAsUpIndicator"
+            android:background="@color/white"
             app:title="@string/start_predict"
             app:titleCentered="true" />
 
@@ -42,6 +43,7 @@
                 android:layout_marginTop="8dp"
                 android:text="@string/notes"
                 android:textSize="16sp"
+                android:textColor="@color/black"
                 android:fontFamily="@font/plus_jakarta_sans_bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>
@@ -53,39 +55,48 @@
                 android:layout_marginTop="4dp"
                 android:text="@string/gallery_only"
                 android:textSize="12sp"
+                android:textColor="@color/black"
                 android:fontFamily="@font/plus_jakarta_sans_regular"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_notes"/>
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img_preview"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_marginTop="16dp"
-                android:src="@drawable/baseline_photo_24"
+                android:src="@drawable/vector_upload"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/rounded24"
                 app:layout_constraintTop_toBottomOf="@id/tv_only"/>
 
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_upload"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/pale_orang"
+                android:background="@drawable/button_primary"
                 android:text="@string/upload"
-                android:textColor="@color/strong_orange"
-                android:layout_marginTop="16dp"
+                android:textColor="@color/moderate_orang"
+                android:layout_marginTop="32dp"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/plus_jakarta_sans_regular"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/img_preview" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_predict"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/soft_orange"
+                android:background="@drawable/button_secondary"
                 android:text="@string/predict"
-                android:textColor="@color/strong_orange"
+                android:textColor="@color/moderate_orang"
                 android:layout_marginTop="8dp"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:fontFamily="@font/plus_jakarta_sans_regular"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/btn_upload" />

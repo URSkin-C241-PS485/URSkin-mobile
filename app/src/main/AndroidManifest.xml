@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -16,7 +18,10 @@
         tools:targetApi="31">
         <activity
             android:name=".view.profile.ProfileActivity"
-            android:exported="false" />
+            android:exported="false" >
+
+
+        </activity>
         <activity
             android:name=".view.history.HistoryActivity"
             android:exported="false" />
@@ -31,22 +36,35 @@
             android:exported="false" />
         <activity
             android:name=".view.onboarding.OnboardingActivity"
-            android:exported="false" />
+            android:exported="false" >
+
+        </activity>
         <activity
             android:name=".view.login.LoginActivity"
-            android:exported="false" />
+            android:exported="false">
+
+        </activity>
         <activity
             android:name=".view.article.ArticleActivity"
             android:exported="false" />
         <activity
             android:name=".view.main.MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="DiscouragedApi,MissingClass" />
     </application>
 
 </manifest>

@@ -4,9 +4,11 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="greu">#9e9e9e</color>
-    <color name="light_grey">#ebebeb</color>
+    <color name="dark_grey">#787878</color>
+    <color name="light_grey">#ececec</color>
     <color name="very_light_grey">#F6F6F6</color>
     <color name="strong_orange">#b65629</color>
+    <color name="moderate_orang">#C06945</color>
     <color name="soft_orange">#ef9771</color>
     <color name="pale_orang">#FFDFCE</color>
     <color name="grayish_orange2">#feeee6</color>
