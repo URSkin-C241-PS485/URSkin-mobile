@@ -7,6 +7,7 @@
     android:layout_marginHorizontal="24dp"
     android:layout_marginVertical="12dp"
     app:cardElevation="12dp"
+
     app:cardCornerRadius="16dp">
 
     <TextView
@@ -23,6 +24,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/white"
     android:padding="16dp">
 
     <TextView
@@ -47,6 +49,7 @@
         android:ellipsize="end"
         android:gravity="start"
         android:textSize="22sp"
+        android:textColor="@color/black"
         android:fontFamily="@font/plus_jakarta_sans_extra_bold"
         android:text="@string/article_tittle"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,6 +64,7 @@
         android:ellipsize="end"
         android:gravity="start"
         android:textSize="12sp"
+        android:textColor="@color/black"
         android:justificationMode="inter_word"
         android:text="@string/article_desc"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,6 +82,7 @@
         app:layout_constraintStart_toEndOf="@id/tv_tittle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/rounded10"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

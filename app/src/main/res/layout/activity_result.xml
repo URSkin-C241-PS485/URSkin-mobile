@@ -40,7 +40,8 @@
                     android:layout_height="365dp"
                     android:layout_marginHorizontal="12dp"
                     android:src="@drawable/baseline_photo_24"
-                    android:scaleType="fitCenter"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/rounded24"
                     />
                 <LinearLayout
                     android:id="@+id/rqr6zodgiea"
@@ -56,7 +57,7 @@
                     android:orientation="vertical">
                     <TextView
                         android:id="@+id/tv_result"
-                        android:textColor="#000000"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:layout_marginBottom="16dp"
                         android:layout_marginStart="36dp"
@@ -65,30 +66,22 @@
                         android:text="@string/result"
                         />
 
-                    <TextView
-                        android:id="@+id/rjt5pmp2qui"
-                        android:textColor="#000000"
-                        android:textSize="16sp"
-                        android:layout_marginBottom="17dp"
-                        android:layout_marginStart="34dp"
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:text="@string/description"
-                        />
+
                     <TextView
                         android:id="@+id/tv_desc"
-                        android:textColor="#000000"
-                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textSize="11sp"
                         android:layout_marginBottom="64dp"
                         android:layout_marginStart="35dp"
                         android:layout_height="0dp"
                         android:layout_width="match_parent"
                         android:layout_weight="1"
+
                         android:text="@string/desc"
                         />
 
                         <LinearLayout
-                            android:id="@+id/rzx8guzmyph"
+                            android:id="@+id/layoutGoto"
                             android:layout_width="282dp"
                             android:layout_height="wrap_content"
                             android:background="@drawable/cr9bffffdfce"
@@ -98,14 +91,16 @@
                             android:clipChildren="false"
                             android:clipToPadding="false"
                             android:gravity="center"
+                            android:layout_marginTop="192dp"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/rjac0ty2dgst"
+                                android:id="@+id/tvGoto"
                                 android:textColor="#B65629"
                                 android:textSize="14sp"
+                                android:gravity="center"
                                 android:layout_height="wrap_content"
-                                android:layout_width="wrap_content"
-                                android:text="@string/try_again"
+                                android:layout_width="100dp"
+                                android:text="@string/goto_article"
                                 />
                         </LinearLayout>
                 </LinearLayout>

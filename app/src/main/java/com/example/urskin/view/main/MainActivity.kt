@@ -5,7 +5,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.activity.enableEdgeToEdge
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.core.view.ViewCompat
@@ -16,13 +18,20 @@ import com.example.urskin.R
 import com.example.urskin.data.adapter.ArticleAdapter
 import com.example.urskin.data.pref.ArticleModel
 import com.example.urskin.databinding.ActivityMainBinding
+import com.example.urskin.view.ViewModelFactory
 import com.example.urskin.view.article.ArticleActivity
 import com.example.urskin.view.history.HistoryActivity
+import com.example.urskin.view.login.LoginActivity
+import com.example.urskin.view.onboarding.OnboardingActivity
 import com.example.urskin.view.predict.PredictActivity
 import com.example.urskin.view.profile.ProfileActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
+
+    private val mainViewModel by viewModels<MainViewModel> {
+        ViewModelFactory.getInstance(this)
+    }
 
     private lateinit var rvItems: RecyclerView
     private val list = ArrayList<ArticleModel>()
@@ -30,21 +39,36 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setSupportActionBar(binding.topAppBar)
 
         rvItems = findViewById(R.id.rv_article)
         rvItems.setHasFixedSize(true)
 
+
+        setupAction()
+
         list.addAll(getArticle())
         showRecycleList()
 
-        setView()
+
 
     }
 
-    private fun setView(){
+    private fun setupAction(){
         binding.fabCamera.setOnClickListener {
             val intent = Intent(this, PredictActivity::class.java)
             startActivity(intent)
+        }
+
+        mainViewModel.getSession().observe(this){ user ->
+            if (!user.isLogin){
+                startActivity(Intent(this, OnboardingActivity::class.java))
+                finish()
+            }else{
+                mainViewModel.isLoading.observe(this){
+                    showLoading(it)
+                }
+            }
         }
     }
 
@@ -78,22 +102,24 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
+            R.id.history -> {
+                val historyIntent = Intent(this, HistoryActivity::class.java)
+                startActivity(historyIntent)
+                true
+            }
             R.id.profie -> {
                 val profileIntent = Intent(this,ProfileActivity::class.java)
                 startActivity(profileIntent)
                 true
             }
             R.id.logout -> {
-                val testIntent = Intent(this, PredictActivity::class.java)
-                startActivity(testIntent)
-                true
-            }
-            R.id.history -> {
-                val historyIntent = Intent(this, HistoryActivity::class.java)
-                startActivity(historyIntent)
-                true
+                mainViewModel.logout()
             }
         }
         return super.onOptionsItemSelected(item)
     }
+    private fun showLoading(isLoading: Boolean) {
+        binding.progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
+    }
+
 }

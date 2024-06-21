@@ -3,5 +3,12 @@
     <style name="Base.Theme.URSkin" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="colorPrimary">@color/soft_orange</item>
+        <item name="colorPrimaryVariant">@color/strong_orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+
+        <item name="android:statusBarColor">@color/soft_orange</item>
     </style>
 </resources>
